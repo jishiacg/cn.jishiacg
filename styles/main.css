@@ -406,7 +406,7 @@ td {
   padding-bottom: 42px;
 }
 .post-container .post .post-title {
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
   font-weight: 900;
   letter-spacing: 0.02em;
@@ -496,7 +496,7 @@ td {
 @media (max-width: 600px) {
   .post-container .post .post-title {
     padding-top: 16px;
-    font-size: 24px;
+    font-size: 20px;
   }
   .post-container .post .post-abstract {
     padding: 8px 0;
@@ -824,6 +824,7 @@ td {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .archives-container .year {
   font-size: 1.375rem;
@@ -835,13 +836,9 @@ td {
 .archives-container .post {
   margin: 0px auto;
   text-align: center;
-  width: 50%;
-  min-width: 200px;
-  max-width: 500px;
+  max-width: 492px;
   padding-top: 5px;
   padding-bottom: 25px;
-  padding-right: 10px;
-  padding-left: 10px;
   display: block;
 }
 .archives-container .post .post-title {
@@ -857,7 +854,7 @@ td {
 @media (max-width: 600px) {
   .archives-container {
     text-align: center;
-    padding: 16px;
+    width: 100%;
   }
 }
 .tags-container {
